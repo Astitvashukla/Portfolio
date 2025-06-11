@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Astitva Shukla</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+            <a href="#" class="logo">
+                <!-- Logo or name removed -->
+            </a>
+            
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="section hero-section">
+            <div class="hero-content">
+                <h1 class="typewriter"><strong>Astitva Shukla</strong></h1>
+                <p class="subtitle">Aspiring Product Manager | Product Strategy & User-Centric Solutions</p>
+                <div class="cta-buttons" style="display: flex; justify-content: center;">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator" style="text-decoration: none;">
+                <span>Scroll to explore</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            </div>
+        </section>
+
+        <!-- Modal Overlay for About Me Summary -->
+        <div id="about-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-describedby="modal-desc" hidden>
+            <div class="modal-content">
+                <button id="modal-close" aria-label="Close About Me summary">&times;</button>
+                <h2 id="modal-title">My Evolving Journey: From Diverse Experiences to Product Focus</h2>
+                <div id="modal-desc">
+                    <p>My career journey has been anything but linear — and that's my greatest strength. I've worn multiple hats across fintech, edtech, sales, live operations, and quality assurance, each chapter contributing to the customer-centric and analytical mindset I bring to product thinking today.</p>
+                    <p>I began my professional path in highly customer-facing environments — at Domino's and later at BYJU'S — where I developed a sharp instinct for what people value, how they interact with products in real time, and what it takes to deliver experiences that are both seamless and memorable. These roles grounded me in empathy, urgency, and the art of listening to feedback beyond just metrics.</p>
+                    <p>My transition into Quality Assurance roles at Novo (a modern fintech platform) and Frontrow (a creator-led edtech company) marked a shift toward technical ownership and system-level thinking. Here, I embraced responsibilities that spanned manual testing, API validation, and test automation. I collaborated closely with product and engineering teams, driving iterative improvements powered by real user feedback and data. Tools like Mixpanel, Postman, Cypress, and customer voice channels became central to my workflow. I wasn't just testing features — I was advocating for user trust and performance at every release.</p>
+                    <p>What sets my journey apart is the ability to connect dots between user behavior, business impact, and technical feasibility. Whether it was refining a feature rollout based on customer pain points, or identifying patterns in support tickets that informed backlog priorities, I was always playing the role of a translator between users and builders — long before I formally wore the PM hat.</p>
+                    <p>Today, as I pivot into Product Management, I bring with me:</p>
+                    <ul>
+                        <li>Firsthand knowledge of customer journeys and user pain points</li>
+                        <li>A deep appreciation for clean, testable design</li>
+                        <li>Proficiency in using data and analytics tools to guide decisions</li>
+                        <li>The ability to work across cross-functional teams and communicate with clarity</li>
+                    </ul>
+                    <p>My curiosity has also been amplified by observing the rise of AI — not just as a technology trend but as a product challenge and opportunity. I've approached this space like a journalist: exploring, questioning, and analyzing how AI can create meaningful utility for real people.</p>
+                    <p>In essence, my journey reflects a deep-rooted passion for building products that are grounded in empathy, engineered with care, and aligned with strategic impact.</p>
+                </div>
+            </div>
+        </div>
+        <section id="about" class="section about-section">
+            <h2>Bridging Technology & Human-Centered Design</h2>
+            <p>I'm a product professional with a unique journey that's taken me from customer support to technical QA, equipping me with a 360° understanding of product development. My diverse experience across fintech, edtech, and consumer tech has shaped me into a versatile problem-solver who speaks both business and technology fluently.</p>
+            
+            <div class="about-highlight" style="background: #f8fafc; border-left: 4px solid #2563eb; padding: 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0;">
+                <h3 style="margin-top: 0; color: #1e40af;">Why My Background Matters</h3>
+                <p>Having worked across the entire product lifecycle — from initial customer interactions to technical implementation — I bring a holistic perspective that bridges user needs with technical feasibility. My experience in QA has honed my attention to detail, while my customer-facing roles have instilled deep empathy for end-users.</p>
+            </div>
+            
+            <p>What drives me is creating products that solve real problems through a combination of data-driven decision making and human-centered design. I believe the best products emerge when we balance analytical rigor with deep user understanding.</p>
+            
+            <p>When I'm not thinking about product strategy or user experience, you can find me exploring the latest in AI advancements, reading about behavioral psychology, or experimenting with no-code tools to bring product ideas to life.</p>
+        </section>
+        <section id="experience" class="section experience-section">
+            <div class="section-header">
+                <h2>Professional Journey</h2>
+                <p class="section-subtitle">A Path of Continuous Growth and Learning</p>
+            </div>
+            
+            <div class="experience-container">
+                <!-- Novo Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>🚀 Senior QA Engineer & Product Collaborator</h3>
+                        <div class="experience-meta">
+                            <span class="company">Novo (US Fintech Startup)</span>
+                            <span class="date">Nov 2022 – Present</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Co-led revamp of the onboarding module, leveraging Mixpanel and funnel data to drive a <strong>30% reduction in user drop-offs</strong> and significantly improve time-to-value</li>
+                        <li>Spearheaded partner integrations that led to a <strong>25% increase in acquisition channels</strong>, aligning roadmap delivery with GTM strategy</li>
+                        <li>Bridged the gap between QA, Engineering, and Product teams with structured documentation and proactive feature reviews, reducing back-and-forths and improving execution clarity</li>
+                        <li>Implemented end-to-end test automation frameworks, cutting regression time by <strong>40%</strong>, improving dev velocity, and enabling CI/CD practices</li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> This role gave me an inside-out understanding of how data, UX, and product execution intersect, laying the groundwork for my PM systems thinking.
+                    </div>
+                </div>
+
+                <!-- Frontrow Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>🎯 QA Engineer & Product Contributor</h3>
+                        <div class="experience-meta">
+                            <span class="company">Frontrow (Edtech Startup)</span>
+                            <span class="date">Apr 2022 – Oct 2022</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Partnered closely with Product and Design to integrate live user issue data into sprint planning — ensuring roadmap priorities reflected real user pain points</li>
+                        <li>Enabled MVP pivots by consolidating user behavior metrics, session recordings, and NPS feedback into actionable insights</li>
+                        <li>Led QA process standardization, improving product reliability by <strong>35%</strong>, and collaborated on release checklists that aligned with business-critical deadlines</li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> I learned the art of balancing speed and quality, advocating for the user voice in fast-changing environments while enabling rapid experimentation.
+                    </div>
+                </div>
+
+                <!-- Amazon Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>🔍 Quality Risk Associate</h3>
+                        <div class="experience-meta">
+                            <span class="company">Amazon</span>
+                            <span class="date">Feb 2021 – Apr 2022</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Designed risk-focused QA plans aligned with both user scenarios and business SLAs, minimizing last-mile defects in live environments</li>
+                        <li>Participated in Agile rituals, often representing the quality & risk lens, helping teams plan for edge cases and compliance-critical workflows</li>
+                        <li>Created reusable test documentation and audit flows, which improved QA onboarding time and operational efficiency by <strong>25%</strong></li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> Amazon taught me discipline at scale, how to break down complexity into testable flows, and how cross-functional alignment ensures global impact.
+                    </div>
+                </div>
+
+                <!-- BYJU'S Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>📈 Business Development Associate</h3>
+                        <div class="experience-meta">
+                            <span class="company">BYJU'S</span>
+                            <span class="date">Jun 2020 – Dec 2020</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Delivered 1:1 product demos to parents and learners, achieving a <strong>95%+ customer satisfaction score</strong> and consistently exceeding monthly conversion quotas</li>
+                        <li>Synthesized customer objections and behavioral cues to influence sales scripts and feature refinement</li>
+                        <li>Provided structured feedback to Product on recurring UX issues, leading to tangible platform updates</li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> This experience rooted me in customer psychology and objection handling — invaluable skills when advocating for product tradeoffs.
+                    </div>
+                </div>
+
+                <!-- Domino's Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>📞 Customer Support Representative</h3>
+                        <div class="experience-meta">
+                            <span class="company">Domino's</span>
+                            <span class="date">May 2019 – Sep 2019</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Managed high call volumes during rush hours while maintaining <strong>top 10% CSAT ratings</strong> regionally</li>
+                        <li>Captured and relayed recurring user complaints, directly contributing to operational process tweaks</li>
+                        <li>Trained in quick decision-making under pressure and escalated issue resolution</li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> My earliest lesson in real-time customer empathy — foundational to my philosophy of shipping user-loved products.
+                    </div>
+                </div>
+
+
+                
+                <!-- Team Core Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>🧠 Event Coordinator & Team Lead</h3>
+                        <div class="experience-meta">
+                            <span class="company">Team Core Events</span>
+                            <span class="date">Feb 2017 – Feb 2021</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Coordinated end-to-end execution for large-format events (250+ attendees), ensuring seamless logistics across venues, teams, and stakeholders</li>
+                        <li>Led a 12-person team, building SOPs that allowed for delegation and execution at scale</li>
+                        <li>Negotiated with vendors to reduce costs by <strong>20%</strong> without sacrificing experience quality</li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> It taught me project management before I even knew the term, shaping my skills in leadership, scope planning, and execution under constraints.
+                    </div>
+                </div>
+                
+                <!-- Web Content Intern Experience -->
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>✍️ Web Content Intern</h3>
+                        <div class="experience-meta">
+                            <span class="company">InsightOne</span>
+                            <span class="date">May 2017 – Aug 2017</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Created SEO-aligned educational content that increased user engagement by 40%</li>
+                        <li>Researched user personas and adjusted tone, layout, and structure accordingly</li>
+                        <li>Collaborated on content calendar and strategy for learning platforms</li>
+                    </ul>
+                    <div class="experience-impact">
+                        <strong>Why it matters:</strong> A preview into the world of content, communication, and user education — all of which influence product adoption and usability today.
+                    </div>
+                </div>
+
+                <!-- PM Ready Section -->
+                <div class="experience-card highlight-card" style="margin-top: 3rem; background: #f8f9fa; border-radius: 8px; padding: 2rem;">
+                    <h2 style="margin-top: 0; color: #1a365d;">🧭 Why This Journey Makes Me PM-Ready</h2>
+                    <p style="font-size: 1.1rem; line-height: 1.7;">Across every role — whether in customer support, QA, or go-to-market — I've honed a 360° view of the product lifecycle. I understand how users feel, how engineers build, how operations run, and how business decisions are made.</p>
+                    <p style="font-size: 1.1rem; line-height: 1.7;">I'm now channeling that depth into Product Management — to build scalable, user-centric, and data-informed products that solve real problems.</p>
+                    
+                    <h3 style="color: #2d3748; margin-top: 2rem; margin-bottom: 1.5rem;">💡 Core Product Skills I Bring</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                            <h4 style="margin-top: 0; color: #2c5282;">Cross-functional collaboration</h4>
+                            <p style="margin-bottom: 0; color: #4a5568;">Fluent in working with Design, Engineering, QA, and CX</p>
+                        </div>
+                        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                            <h4 style="margin-top: 0; color: #2c5282;">Data-driven decisions</h4>
+                            <p style="margin-bottom: 0; color: #4a5568;">Proficient in Mixpanel, Postman, SQL, and user research</p>
+                        </div>
+                        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                            <h4 style="margin-top: 0; color: #2c5282;">Customer-centric thinking</h4>
+                            <p style="margin-bottom: 0; color: #4a5568;">Grounded in support, sales, and product feedback loops</p>
+                        </div>
+                        <div style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                            <h4 style="margin-top: 0; color: #2c5282;">Execution discipline</h4>
+                            <p style="margin-bottom: 0; color: #4a5568;">Agile-ready, documentation-friendly, and outcome-focused</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        
+        <section id="education" class="section education-section">
+            <div class="section-header">
+                <h2>Education</h2>
+                <p class="section-subtitle">My Academic Background</p>
+            </div>
+            <div class="experience-container">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>🎓 Bachelor of Technology in Electronics and Communication</h3>
+                        <div class="experience-meta">
+                            <span class="company">Jaypee Institute of Information Technology, Noida</span>
+                            <span class="date">2016 – 2020</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Studied core electronics, communication systems, and embedded systems</li>
+                        <li>Participated in technical workshops and coding competitions</li>
+                        <li>Developed strong problem-solving and analytical skills</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="education-header" style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                        <h3 style="margin-top: 0; color: #1a365d;">XII (Senior Secondary), Science</h3>
+                        <div class="education-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem;">
+                            <span class="institution" style="font-weight: 500; color: #2d3748;">Rani Laxmi Bai Memorial School, Lucknow</span>
+                            <span class="date" style="color: #4a5568; font-size: 0.95rem;">2015 – 2016</span>
+                        </div>
+                    </div>
+                    <ul class="experience-highlights">
+                        <li>Specialized in Physics, Chemistry, Mathematics, Computer Science, and English</li>
+                        <li>Developed strong analytical and problem-solving skills</li>
+                        <li>Participated in science exhibitions and technical events</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <div class="section-divider"></div>
+        <section id="skills" class="section skills-section">
+            <div class="section-header">
+                <h2>My Product Toolkit</h2>
+                <p class="section-subtitle">A collection of skills and technologies I've mastered</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3><i class="fas fa-chart-line"></i>Product & Strategy</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Product Strategy</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Agile & Scrum</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-tasks"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Product Lifecycle</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-chart-bar"></i>Analytics & Data</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Data Analysis</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="92"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">User Research</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-tachometer-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Metrics & KPIs</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="87"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i>Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-bug"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">QA Automation</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="92"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Mobile Testing</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="skills-category">
+                    <h3><i class="fas fa-comments"></i>Communication</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Technical Writing</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="92"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Stakeholder Management</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="skill-info">
+                                <span class="skill-name">Problem Solving</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="vision" class="section vision-section">
+            <h2>Looking Ahead: My Product Vision</h2>
+            <p>As I transition into Product Management, I'm driven by a clear mission — to craft meaningful, user-first solutions at the intersection of technology, data, and human behavior.</p>
+            <p>Backed by my diverse experience across QA, customer operations, sales, and live product environments, I bring a uniquely grounded perspective that blends user empathy, analytical rigor, and technical fluency. Influenced by the mindset of an AI-informed journalist, I approach problem-solving with curiosity, pattern recognition, and narrative clarity.</p>
+        </section>
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+                <div class="contact-intro" style="max-width: 800px; margin: 2rem auto 3rem; text-align: center; font-size: 1.1rem; line-height: 1.7;">
+                    <p>If you're looking for a PM who's walked in the user's shoes and sat at the table with engineers and analysts — let's talk. I'd love to explore how I can help drive your product forward.</p>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required maxlength="40">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone (optional)" maxlength="13" 
+                           pattern="[\d\s-]{0,13}" title="Maximum 13 characters including spaces and dashes">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Astitva Shukla. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="js/projects-carousel.js"></script>
+</body>
+</html>
